@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calender{
+    width: 40%;
+    height: fit-content;
+    border: 1px solid black;
+    display: none;
+}
+.calender button{
+    display: none;
+}
+
+.down-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.down-cont .daylist{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.daylist li{
+    display: inline-flex;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.small-cont button{
+    background: transparent;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+}.container{
+    width: 40%;
+    height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.container .small-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.down-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.down-cont .daylist{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.daylist li{
+    display: inline-flex;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.small-cont button{
+    background: transparent;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+}
